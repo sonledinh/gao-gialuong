@@ -26,7 +26,7 @@ body {
 		    transition: .4s all !important;
 		    top: 60px;
     		pointer-events: none;
-    		opacity: 0;
+    		opacity: 0; 
 		    li {
 		    	margin: 0 !important;
 		    }
@@ -41,8 +41,10 @@ body {
 			    padding: 5px 10px; 
 			    &:hover {
 			    	font-weight: bold;
-			    	background: #ffc037;
-			    	color: #Fff;
+				    background: #ffc037;
+				    color: #Fff;
+				    font-size: 19px;
+				    letter-spacing: 1px;
 			    }
 		    }
 		}

@@ -188,6 +188,9 @@ button.slick-arrow {
     width: 100%;    
     padding-left: 50px;
 }
+.form-search input::placeholder {
+    font-weight: bold;
+}
 .action-search{
     background: none;
     border: 0;
@@ -229,7 +232,7 @@ button.slick-arrow {
     .form.search{
         position: absolute;
         top: 75px;
-        left: -15px;
+        left: 0;
         right: 0;
         background: #fff;
         width: 100vw;
@@ -249,6 +252,11 @@ button.slick-arrow {
         margin-top: 8px;
         opacity: 0;
         transition: .3s all ease;
+        position: absolute;
+        top: 11px;
+    }
+    .search-open .label-search img {
+        opacity: 0;
     }
     .search-open .form.search{
         height: 80px;
@@ -360,6 +368,13 @@ button.slick-arrow {
         position: absolute;
         top: 27px;
         right: 0;
+    }
+    .nav-toggle img {
+        max-height: 30px;
+    }
+
+    .nav-toggle {
+        top: 22px;
     }
     .header-content{
         position: relative;

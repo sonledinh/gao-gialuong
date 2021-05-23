@@ -36,7 +36,9 @@ body {
       .header-nav li ul a:hover {
         font-weight: bold;
         background: #ffc037;
-        color: #Fff; }
+        color: #Fff;
+        font-size: 19px;
+        letter-spacing: 1px; }
 
 #about {
   font-size: 30px;
